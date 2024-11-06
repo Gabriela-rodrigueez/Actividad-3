@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    font-size: 30;
+}
+
+h2 {
+    color: violet ;
+    font-size: 25;
+}
+
+h3 {
+    color: blue;
+    font-size: 20;
+}
+
+p {
+    color: rgb(98, 239, 9);
+    font-size: 18px;
+}
+
+ol{
+    color: rgb(193, 83, 221);
+}
+
+ul{
+color: rgb(40, 138, 224);
+}
+ dl{
+    color: brown;
+ }
+ table{
+    color: rgb(250, 144, 5);
+ }
