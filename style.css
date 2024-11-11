@@ -27,7 +27,33 @@ color: rgb(40, 138, 224);
 }
  dl{
     color: brown;
- }
- table{
+}
+
+table{
     color: rgb(250, 144, 5);
- }
+}
+
+.highlight{
+    background-color: rgb(130, 245, 255);
+    color: black;
+}
+
+
+/* id*/
+#header{
+    font-size: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+
+input[type="text"]{
+    border: 2px solid rgb(88, 163, 163);
+    border-radius: 9px;
+    padding: 4px;
+}
+button{
+    color: rgb(9, 104, 104);
+}
+label{
+    color: rgb(31, 31, 31);
+}
