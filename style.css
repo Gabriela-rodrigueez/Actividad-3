@@ -75,79 +75,71 @@ h6{
     color: brown;
     font-size: 13px;
 }
-.icon_smile{
-    width: 20px;
-    color: brown;
+
+
+
+h1{
+    color: rgb(15, 115, 158);
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-header{
-    text-align: center;
+#header{
     width: 600px;
     height: 120px;
     padding: 20px;
     margin: 15px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #fce9e9
 }
+
 ul{
     text-align: center;
-    width: 600px;
-    height: 90px;
-    padding: 9px;
-    margin: 50px -20px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #fce9e9
+    font-size: 17px;
+    height: 100px;
+    padding: 10px;
+    margin: 40px 20px;
 }
 
 li{
-    justify-content: center;
+    align-content: center;
+    height: 28px;
+    margin: 0px 650px;
 }
+
 main{
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 900px;
+    height: 270px;
     padding: 9px;
-    margin: 130px 20px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #fce9e9
+    margin: 0 5px;
 }
-section #inicio{
-    text-align: center;
-    width: 300px;
+article{
     height: 100px;
-    padding: 20px;
-    margin: 15px;
+    padding: 5px;
+    margin: 10px 20px;
     border: 2px solid purple;
     box-sizing: border-box;
     border-radius: 5px;
-    background-color: #fce9e9
 }
 aside{
     text-align: center;
-    width: 200px;
-    height: 300px;
+    width: 550px;
+    height: 270px;
     padding: 15px;
-    margin: -200px 380px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #fce9e9
+    margin: -245px 900px;
 }
 footer{
     text-align: center;
     width: 600px;
     height: 120px;
     padding: 20px;
-    margin: 15px;
-    border: 2px solid purple;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-color: #fce9e9
+    margin: 30px 500px;
+    
 }
 
+
+.icon_smile{
+    width: 20px;
+    color: brown;
+}
