@@ -16,6 +16,7 @@ h3 {
 p {
     color: rgb(74, 12, 189);
     font-size: 18px;
+    text-align: center;
 }
 
 ol{
@@ -142,4 +143,12 @@ footer{
 .icon_smile{
     width: 20px;
     color: brown;
+}
+
+#parrafo{
+    color: rgb(43, 0, 255);
+    border: 10px solid rgb(255, 192, 192);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px red;
+    
 }
