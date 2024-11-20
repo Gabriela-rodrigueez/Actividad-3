@@ -20,12 +20,20 @@ p {
     text-align: center;
 }
 
-ol{
+.elemento{
     color: rgb(193, 83, 221);
+    height: 150px;
+    margin: 30px 0px;
+    padding: 14px;
+    
 }
 
-ul{
-color: rgb(40, 138, 224);
+.elemento1{
+    color: rgb(40, 138, 224);
+    height: 150px;
+    margin: 30px 0px;
+    padding: 14px;
+
 }
 
 dl{
@@ -159,15 +167,24 @@ footer{
 /* multimedia */
 .tarta{
     position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
     
     
 }
 .mysql{
     position: relative;
     display: inline;
-
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    
 }
 .cancion{
     position:static;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
 
 }
