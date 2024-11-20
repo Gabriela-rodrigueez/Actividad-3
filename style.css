@@ -1,3 +1,4 @@
+/* index */
 h1 {
     color: rgb(15, 115, 158);
     font-size: 30;
@@ -34,15 +35,25 @@ dl{
 table{
     color: rgb(250, 144, 5);
 }
+#parrafo{
+    color: rgb(43, 0, 255);
+    border: 10px solid rgb(255, 192, 192);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px red;
+    
+}
+
+/* Selectores */
 
 .highlight{
     background-color: rgb(130, 245, 255);
     color: black;
 }
 
+/* formulario */
 
-/* id*/
 #header{
+    /* id*/
     font-size: 20px;
     text-align: center;
     justify-content: center;
@@ -67,7 +78,7 @@ label{
     color: rgb(31, 31, 31);
 }
 
-h4{
+/* h4{
     color: pink;
     font-size: 18px;
 }
@@ -75,9 +86,9 @@ h4{
 h6{
     color: brown;
     font-size: 13px;
-}
+} */
 
-
+/* etiquetas semanticas */
 
 h1{
     color: rgb(15, 115, 158);
@@ -138,17 +149,25 @@ footer{
     margin: 30px 500px;
     
 }
-
-
 .icon_smile{
     width: 20px;
     color: brown;
 }
 
-#parrafo{
-    color: rgb(43, 0, 255);
-    border: 10px solid rgb(255, 192, 192);
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px red;
+
+
+/* multimedia */
+.tarta{
+    position: relative;
     
+    
+}
+.mysql{
+    position: relative;
+    display: inline;
+
+}
+.cancion{
+    position:static;
+
 }

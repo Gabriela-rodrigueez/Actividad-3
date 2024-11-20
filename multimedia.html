@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="formulario.html">
+    <link rel="stylesheet" href="selectores.html">
+    <link rel="stylesheet" href="etiquetas_semanticas.html">
+    <title>Multimedia</title>
+</head>
+<body>
+    <!--  Atributos Comunes: video y audio
+
+   .controls: Muestra los controles de reproducción (play, pause, volumen, etc.).
+   .autoplay: Reproduce el video automáticamente al cargar la página.
+   .loop: Reproduce el video en bucle.
+   .muted: Reproduce el video sin sonido.
+   .poster: Define una imagen de vista previa antes de que el video se reproduzca.
+   -->
+    <h1>Incorporando Multimedia en HTML</h1>
+    
+
+    <h2>Como hacer masa de tarta (Video)</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, sed? <em>Doloribus, nostrum fuga.</em> </p>
+
+    <video class="tarta" controls poster="img/tarta_atun.png" muted> <!-- "controls" muetra los controles de reproducción (play, pause, volumen)-->
+        <source src="video/masa_tarta.mp4" type="video/mp4">
+        Tu navegador no puede soportar la reproducción del video.
+    </video>
+    <br> <br>
+
+    <h3>Tutorial MySQL</h3>
+    <p>Lorem ipsum, dolor sit amet onsetetur adipisiing elit. Aut maxime ausantium libero veritatis provident laudantium ulpa dolorem quasi quis a.</p>
+    <video class="mysql" controls poster="img/tutorial_mysql.png" loop> <!-- "poster" Define una imagen de vista previa antes de que el video se reproduzca-->
+        <source src="video/MySql en 5 Minutos!.mp4" type="video/mp4"  >
+        Tu navegador no puede soportar la reproducción del video.
+    </video>
+    <br> <br>
+
+    <h4>Audio de una canción</h4>
+    <audio class="cancion" controls autoplay>
+        <source src="video/Dutty love.mp4" type="audio/mp4">
+        Tu navegador no puede soportar la reproducción del audio.
+    </audio>
+    <br>
+    <hr>
+    <br>
+    <a href="index.html">Página pricipal</a>
+    <br> <br>
+
+</body>
+</html>
