@@ -1,0 +1,88 @@
+// Sintaxis Básica
+
+.VARIABLES 
+(var, let, const.)
+    var: Se utiliza en versiones antiguas de JavaScript, pero no es recomendable debido a su comportamiento global.
+    let: Se utiliza para variables cuyo valor puede cambiar.
+    const: Se utiliza para variables cuyo valor no cambiará.
+
+
+.DATOS PARA LAS VARIABLES 
+(Primitivos: string, number, boolean, undefined, null.)
+    Números: Enteros o decimales.
+    Cadenas de texto (strings): Cualquier texto entre comillas ('Texto' o "Texto").
+    Booleanos: Valores de true o false.
+(Complejos: object, array.)
+    Arreglos: Listas de valores.
+    Objetos: Estructuras que almacenan datos en pares clave-valor.
+
+
+.OPERADORES *ARITMÉTICOS* 
+    + (Suma)
+    - (Resta)
+    * (Multiplicación)
+    / (División)
+    % (Módulo: el resto de una división)
+
+
+.OPERADORES DE *COMPARACIÓN*
+    == (Igual a)
+    === (Estricto, igual en valor y tipo)
+    != (Distinto)
+    <, >, <=, >= (Menor/mayor que, etc.)
+
+
+.OPERADORES DE *LÓGICOS*
+   &&  (Y lógico)
+   ||  (O lógico)
+   !  (Negación lógica)
+
+
+
+
+
+
+// Estructuras de Control
+
+.CONDICIONALES
+    if y else : Ejecución basada en condiciones
+/* 
+if (edad >= 18) {
+    console.log("Eres mayor de edad");
+} else {
+    console.log("Eres menor de edad");
+} 
+*/
+
+    switch: Simplificación de múltiples condiciones
+/* 
+switch (dia) {
+    case 1: console.log("Lunes"); break;
+    case 2: console.log("Martes"); break;
+    default: console.log("Otro día");
+} 
+*/
+
+
+.BUCLES
+    for: Repetición basada en un rango
+/*
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+*/
+
+    while: Repetición basada en una condición
+/*
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+*/
+
+
+
+
+
+
