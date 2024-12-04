@@ -125,7 +125,7 @@ while (num1 > 1) {
     factorial *= num1;
     num1--;
 }
-console.log(`El factorial es: ${factorial}`)
+console.log(`El factorial es: ${factorial}`);
 
 // 5. Escribe un condicional que determine si una persona puede votar según su edad.
 let mayorEdad = 19;
@@ -133,27 +133,79 @@ puedoVotar(mayorEdad);
 
 function puedoVotar(edad) {
     if (edad >= 18) {
-        console.log("Sí puedes votar")
+        console.log("Sí puedes votar");
     } else {
-        console.log("No puedes votar")
+        console.log("No puedes votar");
     }
 }
 
 // 6. Imprime los números pares entre 1 y 20 con un bucle for.
 
-for (let i = 1; i <= 20; i++)
-    if (i % 2 == 0)
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+/*
+for (let i = 2; i <= 20; i += 2) {
+    console.log(i);
+}
+*/
 
 // 7. Usa switch para imprimir un mensaje dependiendo de la calificación (A, B, C, D, F).
-
+let calificacion = "B"
+switch (calificacion) {
+    case "A": console.log("¡Excelente!");
+    break;
+    case "B": console.log("Buen trabajo");
+    break;
+    case "C": console.log("Puedes mejorar");
+    break;
+    case "D": console.log("Debes estudiar más");
+    break;
+    case "F": console.log("Reprobado");
+    break;
+    default: console.log("Esta calificación no es válida");
+}
 
 // 8. Haz un programa que pida dos números y los sume si ambos son positivos.
+let numero1 =parseFloat(prompt("Ingrese el primer número: "));
+let numero2 =parseFloat(prompt("Ingrese el segundo número: "));
 
+if (numero1 > 0 && numero2 > 0) {
+    let suma = numero1 + numero2;
+    console.log(`La suma de ${numero1} y ${numero2} es: ${suma}`)
+} else {
+    console.log("Ambos números ingresados deben ser positivos para hacer la suma")
+}
 
 // 9. Escribe un bucle while que cuente de 10 a 1 en orden descendente.
+let contador = 10;
+while (contador >=1) {
+    console.log(contador);
+    contador--; // se le resta -1 (operador decreciente)
+}
+// Cuando se escribe como sufijo (contador--), el operador devuelve el valor actual de la variable antes de decrementar.
+// Cuando se escribe como prefijo (--contador), primero decrementa la variable y luego devuelve el nuevo valor.
 
 
 // 10. Crea una calculadora básica que permita sumar o restar según el operador ingresado.
+
+let numero3 =parseFloat(prompt("Ingrese el primer número: "));
+
+let operador = prompt("Ingrese unos de los siguientes operadores (+ ó -): ")
+
+let numero4 =parseFloat(prompt("Ingrese el segundo número: "));
+
+if (operador === "-") {
+    let resultado = numero3 - numero4;
+    console.log(`El resultado de ${numero3} - ${numero4} es: ${resultado}`);
+} else if (operador === "+") {
+    let resultado = numero3 + numero4;
+    console.log(`El resultado de ${numero3} + ${numero4} es: ${resultado}`);
+} else {
+    console.log("El operador ingresado es inválido")
+}
 
 
 
