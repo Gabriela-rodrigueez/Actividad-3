@@ -24,7 +24,6 @@ if (edad >= 18){
 
 //Ejercicios de Sintaxis Básica:
 
-/*
 // 1. Crea una variable nombre con tu nombre y úsala para imprimir un mensaje.
 let nombre = `Isabel`
 console.log(`Mi nombre es ${nombre}`)
@@ -52,7 +51,7 @@ console.log(`El numero es: ${numero}`);
 
 /*Mi código hace que la variable let `Gato` se cambia por otra `Perro` ya que esta se puede ir modificando; en cambio, la variable const no se puede modificar, ya que es una variable constanste*/
 
-/*
+
 // 6. Declara una variable de tipo boolean y úsala en una operación lógica.
    //(&&)Y lógico
 let esMayordeEdad = true; //variable booleana;
@@ -62,17 +61,18 @@ if (esMayordeEdad &&  54 > 18){
     console.log ("No cumples con las condiciones, eres menor de 18 años");
 }
 
+/*
 let esMayordeEdad = true;
 console.log("Eres mayor de edad?" + esMayordeEdad && "Puede votar")
-
+*/
 
 // 7. Imprime el tipo de dato de una variable usando typeof.
 console.log(typeof esMayordeEdad); //Usamos la variable anterior "let esMayordeEdad = true;"
-/* Muesta que tipo es la variable, en este caso es una booleana, por eso imprimirá en la consola "Booleam" 
+/* Muesta que tipo es la variable, en este caso es una booleana, por eso imprimirá en la consola "Booleam" */
 
 // 8. Declara un array y muestra uno de sus elementos en la consola.
 let colores = ["azul", "blanco", "morado", "rojo", "amarillo", "naranja", "verde", "negro"]; //(0;7)
-console.log (colores[2]);*/
+console.log (colores[2]);
 
 // 9. Usa una operación con % para encontrar el resto de 17 ÷ 3.
 let resto = 17 % 3;
@@ -88,13 +88,6 @@ console.log(miVariable); // imprime "undefined"
 
 
 
-
-
-
-
-
-
-/*
 //Ejercicios de Estructuras de Control:
 
 // 1. Escribe un programa que verifique si un número es positivo o negativo.
@@ -168,9 +161,6 @@ for (let i = 2; i <= 20; i += 2) {
 }
 */
 
-/*
-
-
 // 7. Usa switch para imprimir un mensaje dependiendo de la calificación (A, B, C, D, F).
 let calificacion = "B"
 switch (calificacion) {
@@ -226,7 +216,7 @@ if (operador === "-") {
     console.log("El operador ingresado es inválido")
 }
 
-*/
+
 
 
 
